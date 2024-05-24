@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Înregistrare - Management Evenimente</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main style="padding-top: 50px;">
+        <section class="register-section">
+            <h1>Înregistrare</h1>
+            <form id="registerForm" action="register.php" method="post">
+                <div class="form-group">
+                    <label for="fullName">Nume complet:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Parolă:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" name="register" value="true">Înregistrează-te</button>
+                <p>Ai deja un cont? <a href="login.html">Autentifică-te</a></p>
+            </form>
+        </section>
+    </main>
+    <script src="js/validation.js"></script>
+    <footer>
+        <div class="footer-contact">
+            <p><i class="fa fa-phone"></i> Telefon: +40768751706</p>
+            <p><i class="fa fa-envelope"></i> Email: management_event_team@gmail.com</p>
+        </div>
+        <div class="footer-links">
+            <a href="#">Termeni și condiții</a>
+            <a href="#">Politica de confidențialitate</a>
+        </div>
+    </footer>
+</body>
+
+</html>
